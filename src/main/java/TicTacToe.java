@@ -31,10 +31,9 @@ public class TicTacToe extends JFrame {
         Color LIGHT_GREY = new Color(220, 220, 220);
 
         // Initiate the Components of the GUI
-        JLabel titleLabel = new JLabel("Tic-Tac-Toe!");
-        titleLabel.setOpaque(true);
-        titleLabel.setBackground(LIGHT_BROWN);
-        titleLabel.setHorizontalAlignment(JLabel.CENTER);
+        // TODO: Create a Jlabel named titleLabel
+
+
         Font titleFont = new Font("Grobold", Font.BOLD, 30);
         titleLabel.setFont(titleFont);
         add(titleLabel, BorderLayout.PAGE_START);
@@ -47,12 +46,11 @@ public class TicTacToe extends JFrame {
         for (int column = 0; column < GRIDSIZE; column++) {
             for (int row = 0; row < GRIDSIZE; row++) {
 
-                TicTacToeSquare button = new TicTacToeSquare();
+                // TODO: Create a JButton to act as the buttons in the class
+
                 button.setRow(row);
                 button.setColumn(column);
-                button.setBackground(Color.WHITE);
-                Font buttonFont = new Font("Grobold", Font.BOLD, 100);
-                button.setFont(buttonFont);
+
                 button.setBorder(null); // remove borders around the box
                 button.setFocusPainted(false); // remove borders around box when clicked
                 tictactoeSquares[column][row] = button;

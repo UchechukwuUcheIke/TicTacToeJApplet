@@ -71,15 +71,8 @@ public class Game {
     }
 
     public boolean boardFull() {
-        boolean result = true;
-        for (int row = 0; row < board.length; row++) {
-            for (int column = 0; column < board[row].length; column++) {
-                if (board[row][column].equals("")) {
-                    result = false;
-                }
-            }
-        }
+        // TODO: Create a method returns whether or not the board is full
 
-        return result;
+        return false;
     }
 }
