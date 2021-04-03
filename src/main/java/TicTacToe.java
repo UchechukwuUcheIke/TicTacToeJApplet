@@ -40,7 +40,8 @@ public class TicTacToe extends JFrame {
 
         JPanel gamePanel = new JPanel();
         gamePanel.setBackground(LIGHT_GREY);
-        add(gamePanel, BorderLayout.CENTER);
+        //TODO: Add gamePanel to JFrame
+
         gamePanel.setLayout(new GridLayout(GRIDSIZE, GRIDSIZE, GAPSIZE, GAPSIZE));
 
         for (int column = 0; column < GRIDSIZE; column++) {
@@ -156,7 +157,7 @@ public class TicTacToe extends JFrame {
     public TicTacToe() {
         setTitle("TicTacToe");
         setResizable(false);
-        setSize(WIDTH,HEIGHT);
+        // TODO: Set size of the GUI to (Width, Height)
         setVisible(true);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

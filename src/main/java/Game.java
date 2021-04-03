@@ -71,7 +71,7 @@ public class Game {
     }
 
     public boolean boardFull() {
-        // TODO: Create a method returns whether or not the board is full
+        //TODO: Implement this method
 
         return false;
     }
